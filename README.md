@@ -1,4 +1,6 @@
 <h1>ToDo Task App</h1>
+The concept behind the app is simple: it’s a task management application. It features a frontend where, upon logging in, users are taken to a dashboard that allows them to create tasks and receive mobile notifications—one alert 5 minutes before a task is due, and another when the time for that task has elapsed.
+<br>
 
 <h1>
  👷‍♂️🚧🚧🚧 Under Construction 🚧🚧🚧👷‍♂️
