@@ -1,0 +1,42 @@
+{
+  "version": 2,
+  "dgSpecHash": "akRRh5vdwDk=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\Tests\\TodoApp.Tests\\TodoApp.Tests.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project TodoApp.Api is not compatible with net9.0 (.NETCoreApp,Version=v9.0). Project TodoApp.Api supports: net10.0 (.NETCoreApp,Version=v10.0)",
+      "projectPath": "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\Tests\\TodoApp.Tests\\TodoApp.Tests.csproj",
+      "filePath": "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\Tests\\TodoApp.Tests\\TodoApp.Tests.csproj",
+      "libraryId": "TodoApp.Api",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project TodoApp.Infrastructure is not compatible with net9.0 (.NETCoreApp,Version=v9.0). Project TodoApp.Infrastructure supports: net10.0 (.NETCoreApp,Version=v10.0)",
+      "projectPath": "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\Tests\\TodoApp.Tests\\TodoApp.Tests.csproj",
+      "filePath": "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\Tests\\TodoApp.Tests\\TodoApp.Tests.csproj",
+      "libraryId": "TodoApp.Infrastructure",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project TodoApp.Application is not compatible with net9.0 (.NETCoreApp,Version=v9.0). Project TodoApp.Application supports: net10.0 (.NETCoreApp,Version=v10.0)",
+      "projectPath": "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\Tests\\TodoApp.Tests\\TodoApp.Tests.csproj",
+      "filePath": "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\Tests\\TodoApp.Tests\\TodoApp.Tests.csproj",
+      "libraryId": "TodoApp.Application",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}

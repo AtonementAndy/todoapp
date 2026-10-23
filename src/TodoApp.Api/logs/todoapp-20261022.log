@@ -1,0 +1,31 @@
+2026-10-22 22:29:10.757 -03:00 [ERR] Failed executing DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-10-22 22:29:10.964 -03:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2026-10-22 22:29:10.979 -03:00 [INF] Applying migration '20261023011917_InitialCreation'.
+2026-10-22 22:29:39.015 -03:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-10-22 22:29:39.179 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2026-10-22 22:29:39.226 -03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2026-10-22 22:29:39.236 -03:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2026-10-22 22:29:39.238 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2026-10-22 22:29:39.240 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-10-22 22:29:39.244 -03:00 [INF] No migrations were applied. The database is already up to date.
+2026-10-22 22:29:56.019 -03:00 [INF] Now listening on: http://localhost:5000
+2026-10-22 22:29:56.065 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-10-22 22:29:56.067 -03:00 [INF] Hosting environment: Production
+2026-10-22 22:29:56.068 -03:00 [INF] Content root path: C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Api
+2026-10-22 22:30:01.890 -03:00 [INF] Application is shutting down...

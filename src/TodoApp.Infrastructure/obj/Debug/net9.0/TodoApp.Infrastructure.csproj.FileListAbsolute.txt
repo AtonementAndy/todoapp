@@ -1,0 +1,17 @@
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Infrastructure\bin\Debug\net9.0\TodoApp.Infrastructure.deps.json
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Infrastructure\bin\Debug\net9.0\TodoApp.Infrastructure.runtimeconfig.json
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Infrastructure\bin\Debug\net9.0\TodoApp.Infrastructure.dll
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Infrastructure\bin\Debug\net9.0\TodoApp.Infrastructure.pdb
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Infrastructure\bin\Debug\net9.0\TodoApp.Application.dll
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Infrastructure\bin\Debug\net9.0\TodoApp.Application.pdb
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Infrastructure\obj\Debug\net9.0\TodoApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Infrastructure\obj\Debug\net9.0\TodoApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Infrastructure\obj\Debug\net9.0\TodoApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Infrastructure\obj\Debug\net9.0\TodoApp.Infrastructure.AssemblyInfo.cs
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Infrastructure\obj\Debug\net9.0\TodoApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Infrastructure\obj\Debug\net9.0\TodoApp..D6B2378B.Up2Date
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Infrastructure\obj\Debug\net9.0\TodoApp.Infrastructure.dll
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Infrastructure\obj\Debug\net9.0\refint\TodoApp.Infrastructure.dll
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Infrastructure\obj\Debug\net9.0\TodoApp.Infrastructure.pdb
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Infrastructure\obj\Debug\net9.0\TodoApp.Infrastructure.genruntimeconfig.cache
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Infrastructure\obj\Debug\net9.0\ref\TodoApp.Infrastructure.dll

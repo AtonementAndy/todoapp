@@ -1,0 +1,167 @@
+{
+  "version": 4,
+  "targets": {
+    "net9.0": {
+      "TodoApp.Api/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/TodoApp.Api.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TodoApp.Api.dll": {}
+        }
+      },
+      "TodoApp.Application/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/TodoApp.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TodoApp.Application.dll": {}
+        }
+      },
+      "TodoApp.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/TodoApp.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TodoApp.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TodoApp.Api/1.0.0": {
+      "type": "project",
+      "path": "../../src/TodoApp.Api/TodoApp.Api.csproj",
+      "msbuildProject": "../../src/TodoApp.Api/TodoApp.Api.csproj"
+    },
+    "TodoApp.Application/1.0.0": {
+      "type": "project",
+      "path": "../../src/TodoApp.Application/TodoApp.Application.csproj",
+      "msbuildProject": "../../src/TodoApp.Application/TodoApp.Application.csproj"
+    },
+    "TodoApp.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../../src/TodoApp.Infrastructure/TodoApp.Infrastructure.csproj",
+      "msbuildProject": "../../src/TodoApp.Infrastructure/TodoApp.Infrastructure.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "TodoApp.Api >= 1.0.0",
+      "TodoApp.Application >= 1.0.0",
+      "TodoApp.Infrastructure >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Andy\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\Tests\\TodoApp.Tests\\TodoApp.Tests.csproj",
+      "projectName": "TodoApp.Tests",
+      "projectPath": "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\Tests\\TodoApp.Tests\\TodoApp.Tests.csproj",
+      "packagesPath": "C:\\Users\\Andy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\Tests\\TodoApp.Tests\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Andy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "framework": "net9.0",
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\src\\TodoApp.Api\\TodoApp.Api.csproj": {
+              "projectPath": "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\src\\TodoApp.Api\\TodoApp.Api.csproj"
+            },
+            "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\src\\TodoApp.Application\\TodoApp.Application.csproj": {
+              "projectPath": "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\src\\TodoApp.Application\\TodoApp.Application.csproj"
+            },
+            "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\src\\TodoApp.Infrastructure\\TodoApp.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\src\\TodoApp.Infrastructure\\TodoApp.Infrastructure.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.400"
+    },
+    "frameworks": {
+      "net9.0": {
+        "framework": "net9.0",
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.402/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project TodoApp.Api is not compatible with net9.0 (.NETCoreApp,Version=v9.0). Project TodoApp.Api supports: net10.0 (.NETCoreApp,Version=v10.0)",
+      "libraryId": "TodoApp.Api",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project TodoApp.Infrastructure is not compatible with net9.0 (.NETCoreApp,Version=v9.0). Project TodoApp.Infrastructure supports: net10.0 (.NETCoreApp,Version=v10.0)",
+      "libraryId": "TodoApp.Infrastructure",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project TodoApp.Application is not compatible with net9.0 (.NETCoreApp,Version=v9.0). Project TodoApp.Application supports: net10.0 (.NETCoreApp,Version=v10.0)",
+      "libraryId": "TodoApp.Application",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}

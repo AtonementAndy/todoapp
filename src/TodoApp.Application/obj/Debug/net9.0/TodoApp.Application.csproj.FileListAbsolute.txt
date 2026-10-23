@@ -1,0 +1,13 @@
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Application\bin\Debug\net9.0\TodoApp.Application.deps.json
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Application\bin\Debug\net9.0\TodoApp.Application.dll
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Application\bin\Debug\net9.0\TodoApp.Application.pdb
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Application\obj\Debug\net9.0\TodoApp.Application.csproj.AssemblyReference.cache
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Application\obj\Debug\net9.0\TodoApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Application\obj\Debug\net9.0\TodoApp.Application.AssemblyInfoInputs.cache
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Application\obj\Debug\net9.0\TodoApp.Application.AssemblyInfo.cs
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Application\obj\Debug\net9.0\TodoApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Application\obj\Debug\net9.0\TodoApp.Application.dll
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Application\obj\Debug\net9.0\refint\TodoApp.Application.dll
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Application\obj\Debug\net9.0\TodoApp.Application.pdb
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Application\obj\Debug\net9.0\ref\TodoApp.Application.dll
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Application\obj\Debug\net9.0\TodoApp..05D78BBE.Up2Date

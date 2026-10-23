@@ -1,0 +1,18 @@
+- TodoApp -
+
+Models:
+	User:
+		- Guid Id
+		- string Name
+		- string Email
+		- string PasswordHash
+		- DateTime CreatedAt
+		- DateTime UpdatedAt
+		- bool IsDeleted (Soft Delete)
+	
+	TodoTask:
+		- Guid Id
+		- string @Task
+		- DateTime CreatedAt
+		- DateTime UpdatedAt
+		- bool IsDeleted
