@@ -26,7 +26,7 @@ This is the tech stack I’ve planned, but some things will change. Why? When a 
 </div>
 <br>
 
-<h2>🛠️ Achitecture Explanation</h2>
+<h2>🛠️ Achitecture's Explanation</h2>
 
 If you want to see how the app works in a interactive way, click in the link below, it will open a html file!
 
