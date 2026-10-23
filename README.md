@@ -3,6 +3,7 @@
 <h1>
  👷‍♂️🚧🚧🚧 Under Construction 🚧🚧🚧👷‍♂️
 </h1>
+<br>
 
 <h2> 🛠️ Tech Stack </h2>
 
@@ -21,11 +22,14 @@
 This is the tech stack I’ve planned, but some things will change. Why? When a user creates a new task, the `BackgroundService` won’t be precise enough in completing it. After doing some research, I found that Quartz.NET handles exactly this. So, in the near future, I’ll replace the `BackgroundService` with Quartz.NET.
 
 </div>
+<br>
 
-## Achitecture Explanation
-
-![Diagrama TodoApp](./architecture.svg)
+<h2>🛠️ Achitecture Explanation</h2>
 
 If you want to see how the app works in a interactive way, click in the link below, it will open a html file!
 
 <a href="https://atonementandy.github.io/todoapp-architecture/" target="_blank">Architecture Explanation</a>
+
+![Diagrama TodoApp](./architecture.svg)
+
+
