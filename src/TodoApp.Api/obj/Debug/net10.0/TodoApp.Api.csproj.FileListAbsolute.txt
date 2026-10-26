@@ -138,3 +138,16 @@ C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Api\obj\Deb
 C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Api\obj\Debug\net10.0\TodoApp.Api.pdb
 C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Api\obj\Debug\net10.0\TodoApp.Api.genruntimeconfig.cache
 C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Api\obj\Debug\net10.0\ref\TodoApp.Api.dll
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Api\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Api\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Api\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Api\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Api\bin\Debug\net10.0\Quartz.dll
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Api\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Api\obj\Debug\net10.0\TodoApp.Api.sourcelink.json
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Api\bin\Debug\net10.0\CSharpFunctionalExtensions.dll

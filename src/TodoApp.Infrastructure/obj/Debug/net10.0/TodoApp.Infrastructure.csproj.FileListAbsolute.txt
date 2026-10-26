@@ -15,3 +15,4 @@ C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Infrastruct
 C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Infrastructure\obj\Debug\net10.0\TodoApp.Infrastructure.pdb
 C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Infrastructure\obj\Debug\net10.0\TodoApp.Infrastructure.genruntimeconfig.cache
 C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Infrastructure\obj\Debug\net10.0\ref\TodoApp.Infrastructure.dll
+C:\Users\Andy\Documents\Prog\aspnet\RealProjects\todoapp\src\TodoApp.Infrastructure\obj\Debug\net10.0\TodoApp.Infrastructure.sourcelink.json

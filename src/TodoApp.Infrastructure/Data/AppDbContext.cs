@@ -1,37 +1,28 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using TodoApp.Application.Models.Entities;
 
 namespace TodoApp.Infrastructure.Data
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext<User, IdentityRole<Guid>, Guid>
     {
 
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
         }
 
-        public DbSet<User> Users => Set<User>();
         public DbSet<TodoTask> TodoTasks => Set<TodoTask>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
+
             modelBuilder.Entity<User>(builder =>
             {
-                builder.HasKey(u => u.Id);
-
                 builder.Property(u => u.Name)
                     .IsRequired()
                     .HasMaxLength(150);
-
-                builder.Property(u => u.Email)
-                    .IsRequired()
-                    .HasMaxLength(256);
-
-                builder.HasIndex(t => t.Email)
-                    .IsUnique();
-
-                builder.Property(u => u.PasswordHash)
-                    .IsRequired();
 
                 builder.Property(u => u.CreatedAt)
                     .IsRequired();
@@ -52,10 +43,6 @@ namespace TodoApp.Infrastructure.Data
 
                 builder.Property(u => u.Description)
                     .HasMaxLength(500);
-
-                builder.Property(u => u.Priority)
-                    .HasConversion<string>()
-                    .HasMaxLength(20);
 
                 builder.Property(t => t.CreatedAt)
                     .IsRequired();

@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{479C894A-08FB-CB44-40DF-45E3676E5885}|src\\TodoApp.Application\\TodoApp.Application.csproj|c:\\users\\andy\\documents\\prog\\aspnet\\realprojects\\todoapp\\src\\todoapp.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{479C894A-08FB-CB44-40DF-45E3676E5885}|src\\TodoApp.Application\\TodoApp.Application.csproj|solutionrelative:src\\todoapp.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{479C894A-08FB-CB44-40DF-45E3676E5885}|src\\TodoApp.Application\\TodoApp.Application.csproj|c:\\users\\andy\\documents\\prog\\aspnet\\realprojects\\todoapp\\src\\todoapp.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{479C894A-08FB-CB44-40DF-45E3676E5885}|src\\TodoApp.Application\\TodoApp.Application.csproj|solutionrelative:src\\todoapp.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6FBD7998-B5CB-1507-2505-D0F94EC13262}|src\\TodoApp.Infrastructure\\TodoApp.Infrastructure.csproj|c:\\users\\andy\\documents\\prog\\aspnet\\realprojects\\todoapp\\src\\todoapp.infrastructure\\di\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6FBD7998-B5CB-1507-2505-D0F94EC13262}|src\\TodoApp.Infrastructure\\TodoApp.Infrastructure.csproj|solutionrelative:src\\todoapp.infrastructure\\di\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FBD7998-B5CB-1507-2505-D0F94EC13262}|src\\TodoApp.Infrastructure\\TodoApp.Infrastructure.csproj|c:\\users\\andy\\documents\\prog\\aspnet\\realprojects\\todoapp\\src\\todoapp.infrastructure\\todoapp.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6FBD7998-B5CB-1507-2505-D0F94EC13262}|src\\TodoApp.Infrastructure\\TodoApp.Infrastructure.csproj|solutionrelative:src\\todoapp.infrastructure\\todoapp.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{479C894A-08FB-CB44-40DF-45E3676E5885}|src\\TodoApp.Application\\TodoApp.Application.csproj|c:\\users\\andy\\documents\\prog\\aspnet\\realprojects\\todoapp\\src\\todoapp.application\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{479C894A-08FB-CB44-40DF-45E3676E5885}|src\\TodoApp.Application\\TodoApp.Application.csproj|solutionrelative:src\\todoapp.application\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{479C894A-08FB-CB44-40DF-45E3676E5885}|src\\TodoApp.Application\\TodoApp.Application.csproj|c:\\users\\andy\\documents\\prog\\aspnet\\realprojects\\todoapp\\src\\todoapp.application\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{479C894A-08FB-CB44-40DF-45E3676E5885}|src\\TodoApp.Application\\TodoApp.Application.csproj|solutionrelative:src\\todoapp.application\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4039B37-027D-4D33-8F42-5775A74A320E}|src\\TodoApp.Api\\TodoApp.Api.csproj|c:\\users\\andy\\documents\\prog\\aspnet\\realprojects\\todoapp\\src\\todoapp.api\\endpoints\\todoappendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4039B37-027D-4D33-8F42-5775A74A320E}|src\\TodoApp.Api\\TodoApp.Api.csproj|solutionrelative:src\\todoapp.api\\endpoints\\todoappendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,15 +34,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 10,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\src\\TodoApp.Application\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "src\\TodoApp.Application\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\src\\TodoApp.Application\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "src\\TodoApp.Application\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T12:07:43.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TodoAppEndpoints.cs",
+              "DocumentMoniker": "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\src\\TodoApp.Api\\Endpoints\\TodoAppEndpoints.cs",
+              "RelativeDocumentMoniker": "src\\TodoApp.Api\\Endpoints\\TodoAppEndpoints.cs",
+              "ToolTip": "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\src\\TodoApp.Api\\Endpoints\\TodoAppEndpoints.cs",
+              "RelativeToolTip": "src\\TodoApp.Api\\Endpoints\\TodoAppEndpoints.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T11:45:04.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\src\\TodoApp.Infrastructure\\DI\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\TodoApp.Infrastructure\\DI\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\src\\TodoApp.Infrastructure\\DI\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\TodoApp.Infrastructure\\DI\\DependencyInjection.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwDAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T11:42:55.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\src\\TodoApp.Application\\Models\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "src\\TodoApp.Application\\Models\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\src\\TodoApp.Application\\Models\\Entities\\User.cs",
+              "RelativeToolTip": "src\\TodoApp.Application\\Models\\Entities\\User.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T11:31:58.92Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
             },
             {
               "$type": "Bookmark",
@@ -46,28 +110,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TodoApp.Infrastructure",
-              "DocumentMoniker": "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\src\\TodoApp.Infrastructure\\TodoApp.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "src\\TodoApp.Infrastructure\\TodoApp.Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\src\\TodoApp.Infrastructure\\TodoApp.Infrastructure.csproj",
-              "RelativeToolTip": "src\\TodoApp.Infrastructure\\TodoApp.Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-10-22T23:37:03.67Z",
+              "DocumentIndex": 4,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\src\\TodoApp.Application\\DTOs\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "src\\TodoApp.Application\\DTOs\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\src\\TodoApp.Application\\DTOs\\RegisterRequest.cs",
+              "RelativeToolTip": "src\\TodoApp.Application\\DTOs\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T11:29:29.445Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\src\\TodoApp.Infrastructure\\DI\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "src\\TodoApp.Infrastructure\\DI\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\src\\TodoApp.Infrastructure\\DI\\DependencyInjection.cs",
-              "RelativeToolTip": "src\\TodoApp.Infrastructure\\DI\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAVAAAAAAAAAA==",
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\src\\TodoApp.Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "src\\TodoApp.Application\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Andy\\Documents\\Prog\\aspnet\\RealProjects\\todoapp\\src\\TodoApp.Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "src\\TodoApp.Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-22T23:27:15.133Z",
+              "WhenOpened": "2026-10-26T11:27:52.577Z",
               "EditorCaption": ""
             }
           ]

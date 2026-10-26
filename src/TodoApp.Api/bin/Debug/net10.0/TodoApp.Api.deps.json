@@ -10,6 +10,7 @@
         "dependencies": {
           "AspNetCore.HealthChecks.NpgSql": "9.0.0",
           "AspNetCoreRateLimit": "5.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "10.0.13",
           "Microsoft.AspNetCore.OpenApi": "10.0.13",
           "Microsoft.EntityFrameworkCore.Design": "10.0.13",
           "Scalar.AspNetCore": "2.18.2",
@@ -43,6 +44,14 @@
           }
         }
       },
+      "CSharpFunctionalExtensions/3.7.0": {
+        "runtime": {
+          "lib/net8.0/CSharpFunctionalExtensions.dll": {
+            "assemblyVersion": "3.7.0.0",
+            "fileVersion": "3.7.0.0"
+          }
+        }
+      },
       "FluentValidation/12.2.0": {
         "runtime": {
           "lib/net8.0/FluentValidation.dll": {
@@ -70,6 +79,28 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Authentication.JwtBearer/10.0.13": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "8.19.2"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "assemblyVersion": "10.0.13.0",
+            "fileVersion": "10.0.1326.50504"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore/10.0.13": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.13"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
+            "assemblyVersion": "10.0.13.0",
+            "fileVersion": "10.0.1326.50504"
+          }
+        }
+      },
       "Microsoft.AspNetCore.OpenApi/10.0.13": {
         "dependencies": {
           "Microsoft.OpenApi": "2.12.2"
@@ -78,6 +109,14 @@
           "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll": {
             "assemblyVersion": "10.0.13.0",
             "fileVersion": "10.0.1326.50504"
+          }
+        }
+      },
+      "Microsoft.Bcl.Cryptography/10.0.2": {
+        "runtime": {
+          "lib/net10.0/Microsoft.Bcl.Cryptography.dll": {
+            "assemblyVersion": "10.0.0.2",
+            "fileVersion": "10.0.225.61305"
           }
         }
       },
@@ -418,6 +457,71 @@
           }
         }
       },
+      "Microsoft.IdentityModel.Abstractions/8.19.2": {
+        "runtime": {
+          "lib/net10.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "assemblyVersion": "8.19.2.0",
+            "fileVersion": "8.19.2.26195"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/8.19.2": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "8.19.2"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "assemblyVersion": "8.19.2.0",
+            "fileVersion": "8.19.2.26195"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/8.19.2": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Abstractions": "8.19.2"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.IdentityModel.Logging.dll": {
+            "assemblyVersion": "8.19.2.0",
+            "fileVersion": "8.19.2.26195"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Protocols/8.19.2": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "8.19.2"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.IdentityModel.Protocols.dll": {
+            "assemblyVersion": "8.19.2.0",
+            "fileVersion": "8.19.2.26195"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Protocols.OpenIdConnect/8.19.2": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols": "8.19.2",
+          "System.IdentityModel.Tokens.Jwt": "8.19.2"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {
+            "assemblyVersion": "8.19.2.0",
+            "fileVersion": "8.19.2.26195"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/8.19.2": {
+        "dependencies": {
+          "Microsoft.Bcl.Cryptography": "10.0.2",
+          "Microsoft.IdentityModel.Logging": "8.19.2"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "8.19.2.0",
+            "fileVersion": "8.19.2.26195"
+          }
+        }
+      },
       "Microsoft.OpenApi/2.12.2": {
         "runtime": {
           "lib/net8.0/Microsoft.OpenApi.dll": {
@@ -472,6 +576,19 @@
             "assemblyVersion": "10.0.3.0",
             "fileVersion": "10.0.3.0"
           }
+        }
+      },
+      "Quartz/4.6.0": {
+        "runtime": {
+          "lib/net10.0/Quartz.dll": {
+            "assemblyVersion": "4.6.0.0",
+            "fileVersion": "4.6.0.0"
+          }
+        }
+      },
+      "Quartz.Extensions.Hosting/4.6.0": {
+        "dependencies": {
+          "Quartz": "4.6.0"
         }
       },
       "Scalar.AspNetCore/2.18.2": {
@@ -654,10 +771,24 @@
           }
         }
       },
+      "System.IdentityModel.Tokens.Jwt/8.19.2": {
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "8.19.2",
+          "Microsoft.IdentityModel.Tokens": "8.19.2"
+        },
+        "runtime": {
+          "lib/net10.0/System.IdentityModel.Tokens.Jwt.dll": {
+            "assemblyVersion": "8.19.2.0",
+            "fileVersion": "8.19.2.26195"
+          }
+        }
+      },
       "TodoApp.Application/1.0.0": {
         "dependencies": {
+          "CSharpFunctionalExtensions": "3.7.0",
           "FluentValidation": "12.2.0",
-          "FluentValidation.DependencyInjectionExtensions": "12.2.0"
+          "FluentValidation.DependencyInjectionExtensions": "12.2.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "10.0.13"
         },
         "runtime": {
           "TodoApp.Application.dll": {
@@ -669,8 +800,11 @@
       "TodoApp.Infrastructure/1.0.0": {
         "dependencies": {
           "AspNetCore.HealthChecks.NpgSql": "9.0.0",
+          "FluentValidation": "12.2.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "10.0.13",
           "Microsoft.EntityFrameworkCore": "10.0.13",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.3",
+          "Quartz.Extensions.Hosting": "4.6.0",
           "Serilog.Sinks.Console": "6.1.1",
           "Serilog.Sinks.File": "7.0.0",
           "TodoApp.Application": "1.0.0"
@@ -704,6 +838,13 @@
       "path": "aspnetcoreratelimit/5.0.0",
       "hashPath": "aspnetcoreratelimit.5.0.0.nupkg.sha512"
     },
+    "CSharpFunctionalExtensions/3.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eMZp8tc88O96eEFutiIskF3LE8lFY3fjbNRGfNa1ca0CD9sB8A00r5ltyYDih/7UFdJdVbhVq7tGeHI8xj6DlQ==",
+      "path": "csharpfunctionalextensions/3.7.0",
+      "hashPath": "csharpfunctionalextensions.3.7.0.nupkg.sha512"
+    },
     "FluentValidation/12.2.0": {
       "type": "package",
       "serviceable": true,
@@ -725,12 +866,33 @@
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.Authentication.JwtBearer/10.0.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cEPhQWsaUKymSdQ+NB2rF4GnWtjofAcRrzr2aGPzbjSFyeDtIlBzrbX1Qeh/OAHjvdwBe05SbsukoSbz27AD6g==",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/10.0.13",
+      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.10.0.13.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore/10.0.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c6984ahCnqc3zqYgl5KqrBoY+LMKqJW6nZcFdBYNyp3PAA67prA/IgjQ/ySV0t3lEL2LEz3bcx91fbUYr8bRPA==",
+      "path": "microsoft.aspnetcore.identity.entityframeworkcore/10.0.13",
+      "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.10.0.13.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.OpenApi/10.0.13": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-XVuqUBGjVUVyb4DXR5BrSkrW0Br7sYKq39f723ILhQLlFHCyhAgWe1PkJBc42R/5mKBIgHiKVSY+PN5/4XtcQw==",
       "path": "microsoft.aspnetcore.openapi/10.0.13",
       "hashPath": "microsoft.aspnetcore.openapi.10.0.13.nupkg.sha512"
+    },
+    "Microsoft.Bcl.Cryptography/10.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LG9Yll3B5aNpxv0+D47g6LiOiKBIlodhcHdQwcYzo8VeexFLGqx5ymetmA2aBRyo9cCcWsQWrFsdbsr8LvmWDw==",
+      "path": "microsoft.bcl.cryptography/10.0.2",
+      "hashPath": "microsoft.bcl.cryptography.10.0.2.nupkg.sha512"
     },
     "Microsoft.Build.Framework/18.0.2": {
       "type": "package",
@@ -809,6 +971,48 @@
       "path": "microsoft.extensions.dependencymodel/10.0.13",
       "hashPath": "microsoft.extensions.dependencymodel.10.0.13.nupkg.sha512"
     },
+    "Microsoft.IdentityModel.Abstractions/8.19.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HJbo/lnSfNHUfphPRT910poQc4T2/9+8svFLvzuaYHGAOJ2Tu+oEDqpX0BVP3BJ4OuUM1kylEKyaiX2fCAK3Cw==",
+      "path": "microsoft.identitymodel.abstractions/8.19.2",
+      "hashPath": "microsoft.identitymodel.abstractions.8.19.2.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.JsonWebTokens/8.19.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ui3fuBT4fs8kdKfBthI4NzLYIBIneEVS8UrL1JVBzAn80UiKmngBBi0BEByE7n/9c+EElcfFlCMFFTqpkBSLNA==",
+      "path": "microsoft.identitymodel.jsonwebtokens/8.19.2",
+      "hashPath": "microsoft.identitymodel.jsonwebtokens.8.19.2.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Logging/8.19.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r5YLDIxGOnkVJHrqXv/iD1FM1CgGrQOdriXuvuWvTPmKbnGANhEysq9XKmN6IHjf2a+9bAGEpnoRBsAQlvJU5w==",
+      "path": "microsoft.identitymodel.logging/8.19.2",
+      "hashPath": "microsoft.identitymodel.logging.8.19.2.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Protocols/8.19.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sGxSsSrZXNmca6D+jHH2rVRyo2nNRd/g4H9CFbPmLLq0xgoH1U0orLWE5minfijw7+zq49tBs7txenbfAErRoQ==",
+      "path": "microsoft.identitymodel.protocols/8.19.2",
+      "hashPath": "microsoft.identitymodel.protocols.8.19.2.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Protocols.OpenIdConnect/8.19.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1XOcyY36cVymzE3qKdzKaUEZ4Pzt7ZpSa14JZoPPK1NLFUkQDs85TCqpV6XDo0YjFXj6nVK00AfOHppjghjhtw==",
+      "path": "microsoft.identitymodel.protocols.openidconnect/8.19.2",
+      "hashPath": "microsoft.identitymodel.protocols.openidconnect.8.19.2.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Tokens/8.19.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GtPC1S02uH1gOO4fQ+zRysIicKmEXaYFP8PIkdJYXqMyruYhopre4ozVHp0XiDSA0+GJvOZH9prxCPvgBMg4Ww==",
+      "path": "microsoft.identitymodel.tokens/8.19.2",
+      "hashPath": "microsoft.identitymodel.tokens.8.19.2.nupkg.sha512"
+    },
     "Microsoft.OpenApi/2.12.2": {
       "type": "package",
       "serviceable": true,
@@ -850,6 +1054,20 @@
       "sha512": "sha512-IPGrrZnRkuW7OlHDhUESZz4G5DLkW7Nej/O3Cx+0iTsgyU5XJxBgpsvTHLloo3WWuAKKbDHXBvWPVkX1deRh1Q==",
       "path": "npgsql.entityframeworkcore.postgresql/10.0.3",
       "hashPath": "npgsql.entityframeworkcore.postgresql.10.0.3.nupkg.sha512"
+    },
+    "Quartz/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RjSwvjQS7Gavb+e0V8tvVVHiPNi/dtIDMNHBi3dzXgPsCQ80VIvss+igvmjFlEvARqfKdZRE4yziIOtkYFt09g==",
+      "path": "quartz/4.6.0",
+      "hashPath": "quartz.4.6.0.nupkg.sha512"
+    },
+    "Quartz.Extensions.Hosting/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eBpkeOet+7tMh8iMwpWoIPZ6I3a0fpkPGaImDaM8D4VVjvBUFdlMrR6TYk9L27Ca/oi+dzDnWVBvu7V+JmMkEA==",
+      "path": "quartz.extensions.hosting/4.6.0",
+      "hashPath": "quartz.extensions.hosting.4.6.0.nupkg.sha512"
     },
     "Scalar.AspNetCore/2.18.2": {
       "type": "package",
@@ -969,6 +1187,13 @@
       "sha512": "sha512-aRZlojCCGEHDKqh43jaDgaVpYETsgd7Nx4g1zwLKMtv4iTo0627715ajEFNpEEBTgLmvZuv8K0EVxc3sM4NWJA==",
       "path": "system.composition.typedparts/9.0.0",
       "hashPath": "system.composition.typedparts.9.0.0.nupkg.sha512"
+    },
+    "System.IdentityModel.Tokens.Jwt/8.19.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gqhDC/icByKEutygpr+OFgAmjwTVowyzFjWB8K0q1ww8uFj5a1BQNL+QvijUl9uhq4p8OdDwcAIrjVC+eC9FVA==",
+      "path": "system.identitymodel.tokens.jwt/8.19.2",
+      "hashPath": "system.identitymodel.tokens.jwt.8.19.2.nupkg.sha512"
     },
     "TodoApp.Application/1.0.0": {
       "type": "project",

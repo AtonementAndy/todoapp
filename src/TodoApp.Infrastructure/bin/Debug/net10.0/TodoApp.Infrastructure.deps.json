@@ -9,9 +9,12 @@
       "TodoApp.Infrastructure/1.0.0": {
         "dependencies": {
           "AspNetCore.HealthChecks.NpgSql": "9.0.0",
+          "FluentValidation": "12.2.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "10.0.13",
           "Microsoft.EntityFrameworkCore": "10.0.13",
           "Microsoft.EntityFrameworkCore.Design": "10.0.13",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.3",
+          "Quartz.Extensions.Hosting": "4.6.0",
           "Serilog.Sinks.Console": "6.1.1",
           "Serilog.Sinks.File": "7.0.0",
           "TodoApp.Application": "1.0.0"
@@ -28,6 +31,14 @@
           "lib/net8.0/HealthChecks.NpgSql.dll": {
             "assemblyVersion": "9.0.0.0",
             "fileVersion": "9.0.0.0"
+          }
+        }
+      },
+      "CSharpFunctionalExtensions/3.7.0": {
+        "runtime": {
+          "lib/net8.0/CSharpFunctionalExtensions.dll": {
+            "assemblyVersion": "3.7.0.0",
+            "fileVersion": "3.7.0.0"
           }
         }
       },
@@ -55,6 +66,17 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore/10.0.13": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.13"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
+            "assemblyVersion": "10.0.13.0",
+            "fileVersion": "10.0.1326.50504"
           }
         }
       },
@@ -443,6 +465,19 @@
           }
         }
       },
+      "Quartz/4.6.0": {
+        "runtime": {
+          "lib/net10.0/Quartz.dll": {
+            "assemblyVersion": "4.6.0.0",
+            "fileVersion": "4.6.0.0"
+          }
+        }
+      },
+      "Quartz.Extensions.Hosting/4.6.0": {
+        "dependencies": {
+          "Quartz": "4.6.0"
+        }
+      },
       "Serilog/4.2.0": {
         "runtime": {
           "lib/net9.0/Serilog.dll": {
@@ -543,8 +578,10 @@
       },
       "TodoApp.Application/1.0.0": {
         "dependencies": {
+          "CSharpFunctionalExtensions": "3.7.0",
           "FluentValidation": "12.2.0",
-          "FluentValidation.DependencyInjectionExtensions": "12.2.0"
+          "FluentValidation.DependencyInjectionExtensions": "12.2.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "10.0.13"
         },
         "runtime": {
           "TodoApp.Application.dll": {
@@ -568,6 +605,13 @@
       "path": "aspnetcore.healthchecks.npgsql/9.0.0",
       "hashPath": "aspnetcore.healthchecks.npgsql.9.0.0.nupkg.sha512"
     },
+    "CSharpFunctionalExtensions/3.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eMZp8tc88O96eEFutiIskF3LE8lFY3fjbNRGfNa1ca0CD9sB8A00r5ltyYDih/7UFdJdVbhVq7tGeHI8xj6DlQ==",
+      "path": "csharpfunctionalextensions/3.7.0",
+      "hashPath": "csharpfunctionalextensions.3.7.0.nupkg.sha512"
+    },
     "FluentValidation/12.2.0": {
       "type": "package",
       "serviceable": true,
@@ -588,6 +632,13 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore/10.0.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c6984ahCnqc3zqYgl5KqrBoY+LMKqJW6nZcFdBYNyp3PAA67prA/IgjQ/ySV0t3lEL2LEz3bcx91fbUYr8bRPA==",
+      "path": "microsoft.aspnetcore.identity.entityframeworkcore/10.0.13",
+      "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.10.0.13.nupkg.sha512"
     },
     "Microsoft.Build.Framework/18.0.2": {
       "type": "package",
@@ -700,6 +751,20 @@
       "sha512": "sha512-IPGrrZnRkuW7OlHDhUESZz4G5DLkW7Nej/O3Cx+0iTsgyU5XJxBgpsvTHLloo3WWuAKKbDHXBvWPVkX1deRh1Q==",
       "path": "npgsql.entityframeworkcore.postgresql/10.0.3",
       "hashPath": "npgsql.entityframeworkcore.postgresql.10.0.3.nupkg.sha512"
+    },
+    "Quartz/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RjSwvjQS7Gavb+e0V8tvVVHiPNi/dtIDMNHBi3dzXgPsCQ80VIvss+igvmjFlEvARqfKdZRE4yziIOtkYFt09g==",
+      "path": "quartz/4.6.0",
+      "hashPath": "quartz.4.6.0.nupkg.sha512"
+    },
+    "Quartz.Extensions.Hosting/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eBpkeOet+7tMh8iMwpWoIPZ6I3a0fpkPGaImDaM8D4VVjvBUFdlMrR6TYk9L27Ca/oi+dzDnWVBvu7V+JmMkEA==",
+      "path": "quartz.extensions.hosting/4.6.0",
+      "hashPath": "quartz.extensions.hosting.4.6.0.nupkg.sha512"
     },
     "Serilog/4.2.0": {
       "type": "package",

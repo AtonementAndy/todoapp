@@ -1,9 +1,37 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Microsoft.IdentityModel.Tokens;
 using Scalar.AspNetCore;
-using TodoApp.Infrastructure.DI;
 using Serilog;
+using System.Text;
+using TodoApp.Api.Endpoints;
+using TodoApp.Infrastructure.DI;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidIssuer = builder.Configuration["Jwt:Issuer"],
+            ValidateAudience = true,
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!)),
+            ValidateLifetime = true,
+            ClockSkew = TimeSpan.FromSeconds(30)
+        };
+
+        options.Events = new JwtBearerEvents
+        {
+            OnMessageReceived = context =>
+            {
+                context.Token = context.Request.Cookies["access_token"];
+                return Task.CompletedTask;
+            }
+        };
+    });
 
 builder.Services.AddOpenApi();
 
@@ -38,6 +66,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseSerilogRequestLogging();
+
+app.Endpoints();
 
 app.MapHealthChecks("/health");
 app.MapHealthChecks("/alive", new HealthCheckOptions

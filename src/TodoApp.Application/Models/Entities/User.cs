@@ -1,28 +1,31 @@
-﻿namespace TodoApp.Application.Models.Entities
+﻿using Microsoft.AspNetCore.Identity;
+
+namespace TodoApp.Application.Models.Entities
 {
-    public class User
+    public class User : IdentityUser<Guid>
     {
-        public Guid Id { get; set; }
-        public string Name { get; set; } = string.Empty;
-        public string Email { get; set; } = string.Empty;
-        public string PasswordHash { get; set; } = default!;
-        public DateTime CreatedAt { get; set; }
-        public DateTime? UpdateddAt { get; set; }
-        public bool IsDeleted { get; set; }
+        public string Name { get; private set; } = string.Empty;
+        public string Surname { get; private set; } = string.Empty;
+        public DateTime CreatedAt { get; private set; }
+        public DateTime? UpdateddAt { get; private set; }
+        public bool IsDeleted { get; private set; }
 
         private User() { }
 
         public static User Create(
             string name,
-            string email,
-            string passwordHash)
+            string surname,
+            string phoneNumber,
+            string email)
         {
             return new User
             {
                 Id = Guid.NewGuid(),
                 Name = name,
+                Surname = surname,
                 Email = email,
-                PasswordHash = passwordHash,
+                UserName = email,
+                PhoneNumber = phoneNumber,
                 CreatedAt = DateTime.UtcNow
             };
         }
