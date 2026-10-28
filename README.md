@@ -98,6 +98,4 @@ This section documents the technical challenges faced and the engineering decisi
 
 <br>
 
-## 👨‍💻 Author
-**Andy Santos**
-[LinkedIn](https://www.linkedin.com/in/andre-saantos/) | [GitHub](https://github.com/AtonementAndy)
+Made with ❤️ by [AtonementAndy](https://github.com/AtonementAndy)
